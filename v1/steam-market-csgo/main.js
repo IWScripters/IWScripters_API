@@ -1,5 +1,5 @@
 var request = require("request");
-var EventEmitter = require('events').EventEmitter
+var EventEmitter = require('events').EventEmitter;
 var priceProvider = new EventEmitter();
 
 const CURRENCY = {
